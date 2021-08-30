@@ -8,8 +8,8 @@
     - X는 특징값(535개), Y는 age(1개) 입니다.
     - Overfitting을 방지하기 위해 10-fold Cross Validation을 하였습니다.
 * Test-set
-    - data shape: (50, ___ )
-    - X (특징값 __ 개)만 있습니다.
+    - data shape: (50, 535)
+    - X (특징값 535개)만 있습니다.
     - External Validation을 위해 사용합니다.
 
 ### 2. 사용한 머신러닝 모델, 성능 비교
