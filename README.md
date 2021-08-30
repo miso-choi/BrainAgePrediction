@@ -1,4 +1,4 @@
-# BrainAgePrediction 🧠
+# Brain Age Prediction
 인간의 뇌 MRI영상으로부터 추출된 특징값 데이터로 생물학적 나이를 예측합니다.
 
 ### 1. 데이터
