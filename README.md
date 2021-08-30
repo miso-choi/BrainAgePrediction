@@ -17,12 +17,12 @@
     train MAE: 3.200
     
 #### LightGBM
-    test MAE: 
-    train MAE:
+    test MAE: 6.792
+    train MAE: 1.831
     
 #### Gaussian Process Regression
-    test MAE: 
-    train MAE:
+    test MAE: 5.343
+    train MAE: 1.049e-06
 
 ### 3. 결과 시각화
 모델 최적화를 할 때 parameter에 따른 test MAE, train MAE의 변화를 시각화 하였습니다. (visualization.py)  
@@ -36,3 +36,9 @@
 1) requirements.txt 설치
 2) preprocessing.py와 다른 파일들(예-ElasticNet.py)을 같은 경로상에 두기
 3) !python ElasticNet.py 실행
+
+
+
+* * *
+- 참고자료(Reference)  
+    https://www.inflearn.com/course/파이썬-머신러닝-완벽가이드
