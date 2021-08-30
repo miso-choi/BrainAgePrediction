@@ -18,13 +18,13 @@ def Preprocess():
     # X(features) 분리 - 성별을 하나의 categorical feature로 두고 회귀 진행
     X_features = data.drop('age', axis=1, inplace=False)
 
-    # atlas1 만 사용                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       만 사용
+    # Destrieux's atlas (atlas1) 만 사용
     atlas_1 = X_features.iloc[:,0:449]
 
     # 관련 features(A+B+C+D)
     abcd = X_features.iloc[:,657:743]
 
-    # 사용할 데이터 묶기
+    # atlas1 + abcd
     atlas_1abcd = pd.concat([atlas_1, abcd],axis=1)
 
 
