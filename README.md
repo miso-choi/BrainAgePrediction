@@ -2,7 +2,7 @@
 인간의 뇌 MRI영상으로부터 추출된 특징값 데이터로 생물학적 나이를 예측합니다.
 
 ### 1. 데이터
-데이터는 학부 연구실에서 사용한 것이기 때문에 전체 데이터는 공개하지 않습니다.
+데이터는 학부 연구실에서 사용한 관계로 공개하지 않습니다.
 * Train-set  
     <img src="https://user-images.githubusercontent.com/78155086/131341159-f854a42a-c65f-44e0-bcb4-3f8d4053660e.PNG" width="70%">
     <img src="https://user-images.githubusercontent.com/78155086/131341725-d6cf8231-60df-4ec9-a90e-5642f41abbad.PNG" width="13.8%">  
